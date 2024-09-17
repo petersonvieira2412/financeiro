@@ -1,0 +1,25 @@
+.drawer {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.drawerPaper {
+    width: 250px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+}
+
+.listItem {
+    padding: 20px;
+}
+
+.listItemIcon {
+    color: #1976d2;
+}
+
+.menuButton {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 1300;
+}
